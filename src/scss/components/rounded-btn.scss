@@ -1,0 +1,50 @@
+.rounded-btn {
+    display: flex;
+    padding: 12px 28px;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 145%;
+    color: var(--color-white);
+    background-color: var(--color-btn);
+    border: none;
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+
+    &.disabled {
+        background-color: var(--color-btn-disabled);
+        opacity: 0.6;
+    }
+
+    &__img {
+        animation: arrow-jumping 2s ease-in 1.7s infinite;
+
+        path {
+            fill: var(--color-white);
+        }
+    }
+
+    &:hover {
+        box-shadow: 2px 2px 2px black;
+    }
+
+    &:active {
+        transform: translateY(7px);
+    }
+}
+
+@keyframes arrow-jumping {
+    0%,
+    20%,
+    40%,
+    100% {
+        transform: translateY(0px);
+    }
+    10%,
+    30% {
+        transform: translateY(5px);
+    }
+}

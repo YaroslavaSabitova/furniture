@@ -1,0 +1,17 @@
+.catalog {
+    position: relative;
+    padding: 79px 0 81px;
+
+    &__title {
+        margin-bottom: 2.5rem;
+        text-align: left;
+    }
+
+    &__buttons {
+        display: flex;
+        max-width: 457px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
