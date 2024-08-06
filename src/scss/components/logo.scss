@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    z-index: 1000;
+    flex-direction: column;
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 3.2rem;
+    color: var(--color-black);
+
+    &__production {
+        font-family: var(--second-family);
+        font-size: 1.2rem;
+    }
+}
