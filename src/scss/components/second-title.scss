@@ -4,4 +4,8 @@
     font-size: 3.2rem;
     line-height: 145%;
     color: var(--color-black);
+
+    @media (max-width: 767px) {
+        font-size: 2rem;
+    }
 }
