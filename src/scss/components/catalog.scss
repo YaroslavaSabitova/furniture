@@ -5,18 +5,50 @@
     &__title {
         margin-bottom: 2.5rem;
         text-align: left;
+
+        @media (max-width: 1440px) {
+            text-align: center;
+        }
     }
 
     &__buttons {
         display: flex;
         max-width: 457px;
+        margin-bottom: 3rem;
         align-items: center;
         justify-content: space-between;
         gap: 2rem;
 
+        @media (max-width: 1440px) {
+            margin: 0 auto 3rem;
+        }
+
         @media (max-width: 575px) {
             max-width: 325px;
+            margin-bottom: 1.5rem;
             gap: 1rem;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    &__item {
+        &-img {
+            @media (max-width: 991px) {
+                width: 220px;
+            }
+
+            @media (max-width: 600px) {
+                width: 200px;
+            }
         }
     }
 }
