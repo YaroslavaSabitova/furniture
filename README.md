@@ -18,7 +18,7 @@ This project is made with [Gulp](https://gulpjs.com/) toolkit and [npm](https://
 
 ----------------
 
-[**Figma**](https://www.figma.com/design/Bq2fQ4BgKzSfZob3cfD7ZX/Furniture?node-id=2-8&t=CgesH3vX16ph3YoE-1)
+[**Figma**](https://www.figma.com/design/yXjNT0sMQs5UccqVnq81qa/furniture?node-id=0-1&t=HPRTaywWni1kxjKg-1)
 
 **Project** - https://yaroslavasabitova.github.io/furniture/  in process
 
