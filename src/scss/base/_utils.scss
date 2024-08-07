@@ -38,6 +38,13 @@
     transform: translateY(-50%);
 }
 
+.centered-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .visually-hidden {
     position: absolute !important;
     width: 1px !important;

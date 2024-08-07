@@ -8,9 +8,10 @@ export default function () {
 
             if (isPartiallyVisible(listItem)) {
                 listItem.classList.add('active');
-            } else {
-                listItem.classList.remove('active');
             }
+            // else {
+            //     listItem.classList.remove('active');
+            // }
         }
     }
 
