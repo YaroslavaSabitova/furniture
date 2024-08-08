@@ -46,7 +46,6 @@
         justify-content: flex-start;
         opacity: 0;
         transition: all 0.3s ease;
-        transition: transform 0.5s ease, opacity 0.3s ease;
 
         @media (max-width: 991px) {
             width: 50%;

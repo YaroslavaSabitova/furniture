@@ -2,6 +2,7 @@ export default function () {
     const screenHeight = document.documentElement.clientHeight;
     const catalogItems = document.querySelectorAll('.js_catalog_item');
     const conditionsItems = document.querySelectorAll('.js_conditions_item');
+    const interiorsItems = document.querySelectorAll('.js_interiors_item');
 
     function scrolling() {
         for (let i = 0; i < catalogItems.length; i++) {
@@ -22,6 +23,16 @@ export default function () {
                 condItem.classList.add('active');
             } else {
                 condItem.classList.remove('active');
+            }
+        }
+
+        for (let i = 0; i < interiorsItems.length; i++) {
+            const interItem = interiorsItems[i];
+
+            if (isPartiallyVisible(interItem)) {
+                interItem.classList.add('active');
+            } else {
+                interItem.classList.remove('active');
             }
         }
     }
