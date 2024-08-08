@@ -23,6 +23,10 @@
         <link rel="manifest" href="./dist/img/favicons/site.webmanifest" />
     </head>
     <body>
+        <div class="start" id="start">
+            <span class="visually-hidden">Page start</span>
+        </div>
+
         <header class="main-header">
             <div class="container">
                 <nav class="main-header__nav">
@@ -735,6 +739,18 @@
 
         <footer class="main-footer">
             <div class="container">
+                <a href="#start" class="button-up js_button_up">
+                    <span class="visually-hidden">Go to start</span>
+                    <svg
+                        class="button-up__img"
+                        width="18"
+                        height="11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 10l8-8 8 8" stroke-width="2" />
+                    </svg>
+                </a>
+
                 <div class="main-footer__wrapper">
                     <div class="main-footer__first">
                         <ul class="main-footer__first_customers">
