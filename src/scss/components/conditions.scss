@@ -1,7 +1,19 @@
 .conditions {
     position: relative;
-    margin-bottom: 193px;
+    margin-bottom: 19.3rem;
     padding: 4.5rem 0 0;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 15rem;
+    }
+
+    @media (max-width: 991px) {
+        margin-bottom: 10rem;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 7rem;
+    }
 
     &__title {
         margin-bottom: 3rem;

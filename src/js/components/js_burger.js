@@ -7,9 +7,9 @@ export default function () {
         menu.classList.toggle('menu-open');
 
         if (menu.classList.contains('menu-open')) {
-            document.body.setAttribute('style', 'overflow: hidden');
+            document.documentElement.setAttribute('style', 'overflow: hidden');
         } else {
-            document.body.removeAttribute('style', 'overflow: hidden');
+            document.documentElement.removeAttribute('style', 'overflow: hidden');
         }
     });
 }

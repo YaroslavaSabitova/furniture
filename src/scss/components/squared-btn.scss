@@ -18,13 +18,4 @@
         padding: 10px;
         font-size: 1.4rem;
     }
-
-    &:hover {
-        color: var(--color-btn);
-        background: var(--color-white);
-    }
-
-    &:active {
-        box-shadow: 2px 2px 2px black;
-    }
 }
