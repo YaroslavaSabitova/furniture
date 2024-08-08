@@ -24,6 +24,17 @@ For slider I used [Swiper](https://swiperjs.com/), which is installed by modules
 
 [**Figma**](https://www.figma.com/design/yXjNT0sMQs5UccqVnq81qa/furniture?node-id=0-1&t=HPRTaywWni1kxjKg-1)
 
-**Project** - https://yaroslavasabitova.github.io/furniture/  in process
+**Project** - https://yaroslavasabitova.github.io/furniture/ 
 
 **Preview**
+
+https://github.com/user-attachments/assets/ce3cc0b3-ef0c-4772-bf4d-ec466495a974
+
+https://github.com/user-attachments/assets/81c24dc6-0993-48fb-8db8-842147caf2e9
+
+https://github.com/user-attachments/assets/ea1711ce-64bb-43b6-9cf2-0b9658f39454
+
+
+
+
+
